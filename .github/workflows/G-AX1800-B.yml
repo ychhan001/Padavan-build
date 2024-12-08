@@ -377,7 +377,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_RTL_SDR=y" >> .config
 
         ## MTR
-        echo "CONFIG_FIRMWARE_INCLUDE_MTR=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_MTR=n" >> .config
 
         ## ipv6端口转发工具
         echo "CONFIG_FIRMWARE_INCLUDE_SOCAT=y" >> .config
