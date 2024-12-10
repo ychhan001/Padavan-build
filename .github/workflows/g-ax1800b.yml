@@ -133,5 +133,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-G-AX1800B-packages
+        name: Padavan-G-AX1800B-3.4kvr
         path: /opt/images
